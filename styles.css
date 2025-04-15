@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+    margin-top: 20vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.mainMenu {
+    background-image: url("mainMenuBackground.jpg");
+    background-position: -50vw -10vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 100vw;
+}
+
+.miyaruL {
+    position: relative;
+    top: 15%;
+    max-height: 8vh;
+    width: auto;
+    display: block;
+    margin:auto;
+}
+
+.topBan {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 12vh;
+    background-color: #00C2FF;
+    box-shadow: 0em -0.1em 0.4em 0.55em rgba(0, 0, 0, 0.5);
+}
+
+.welcomeText {
+    box-sizing: border-box;
+    padding: 3vh 9%;
+    width:100vw;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 20%;
+    background-color: #010932;
+
+}
+
+.box{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 0%;
+    position: fixed;
+    bottom: 0px; 
+    background-color: #010932;
+    box-shadow: 0em 0.1em 2.1em 4em #010932;
+}
+
+.micon{
+    max-width: 70px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 0.1em solid white;
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}
+
+.banF{
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 4%;
+    width: 90vw;
+    height: 2%;
+    padding: 1% 10%;
+    background-color: #090064;
+    font-size: 0.9em;
+    color: #ECECEC;
+    text-align: center;
+    box-shadow: 0em 0.em 0.25em -0.3em rgba(0, 0, 0, 0.5);
+    border-radius: 0.6em;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: auto;
+}
+.databox{
+    display: block;
+    background-color: #DFDFDF;
+    min-width: 45vw;
+    height: 70vh;
+    border-radius: 2em;
+}
+.option{
+    background-color: #DFDFDF;
+    display: flex;
+}
+.dataTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    color: #FFFFFF;
+    background-color: #090064;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+/* .downArrow{
+
+} */
+/* .optionText{
+
+} */
+.map{
+    background-color: #00ade2;
+    padding: auto;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" style="position: fixed;">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miyaru Website</title>
+
+    <div style="position: fixed; top: 0; z-index: 100;">
+        <div class = "topBan">
+            <img src="miyaru.png" alt="Miyaru" class="miyaruL">
+        </div>
+    </div>
+</head>
+
+<body class="mainMenu">
+    <div class="flexbox" style="min-width: 100vw;">
+        <div class="databox">
+            <div class="dataTitle">Sort through Sightings</div>
+            <div class="flexbox" style="background-color: #DFDFDF;">
+                <div class="option"><p class="optionText">Time</p><img src="arrow-down.svg" class="downArrow"></div>
+                <div class="option"><p class="optionText">Date</p><img src="arrow-down.svg" class="downArrow"></div>
+                <div class="option"><p class="optionText">Species</p><img src="arrow-down.svg" class="downArrow"></div>
+                <div class="option"><p class="optionText">Behaviour</p><img src="arrow-down.svg" class="downArrow"></div>
+                <div class="option"><p class="optionText">Location</p><img src="arrow-down.svg" class="downArrow"></div>
+            </div>
+            <div class="data"></div>
+        </div>
+        <div class="databox">
+            <div class="dataTitle">Locations of Sightings</div>
+            <div class="map"></div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class = "box"></div>
+    <div>
+        <img src="mIcon.png" class = "micon">
+    </div>
+</footer>
+</html>
